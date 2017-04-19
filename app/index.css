@@ -10,6 +10,11 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -24,4 +29,33 @@ li {
   margin: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.space-list-itmes {
+  margin-bottom: 7px;
+}
+
+.space-list-itmes {
+  text-decoration: none;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
 }
