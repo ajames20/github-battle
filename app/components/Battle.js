@@ -1,13 +1,13 @@
-var React = require('react')
+const React = require('react');
 
 class Battle extends React.Component {
-  render () {
+  render() {
     return (
       <div>
         Battle!
       </div>
-    )
+    );
   }
 }
 
-module.exports = Battle
+module.exports = Battle;
