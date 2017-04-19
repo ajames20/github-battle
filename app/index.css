@@ -20,6 +20,14 @@ a {
   margin: 0 auto;
 }
 
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
 .languages {
   display: flex;
   justify-content: center;
