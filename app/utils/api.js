@@ -25,7 +25,7 @@ function calculateScore(profile, repos) {
 }
 
 function handleError(error) {
-  console.warn(error);
+
   return null;
 }
 
